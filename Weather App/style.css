@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(clouds-449822_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    height: 360px;
+    width: 360px;
+    text-align: center;
+    margin: 100px auto;
+    box-shadow: 2px 6px 10px 2px;
+    border-radius: 6px;
+}
+
+.inputs {
+    position: relative;
+    top: 20px;
+}
+
+#Cityinput {
+    height: 25px;
+    border: hidden;
+    outline: none;
+    border-radius: 3px;
+    font: 1em sans-serif;
+}
+
+#add {
+    font: 1em sans-serif;
+    height: 25px;
+    border-radius: 3px;
+    outline: none;
+    border: hidden;
+}
+
+#add:hover {
+    background-color: rgb(178, 193, 210);
+}
+
+.display {
+    color: rgb(230 255 13);
+    position: relative;
+    top: 50px;
+    line-height: 60px;
+    font-size: 1.4em;
+    font-weight: 33px;
+}
+
+.display #cityoutput {
+    color: rgb(11, 240, 232);
+}
